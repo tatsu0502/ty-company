@@ -1,5 +1,24 @@
+# OS
 .DS_Store
+
+# Dependencies
 node_modules/
+
+# Secrets
 .env
 .env.*
+
+# Logs
 *.log
+
+# Claude Code (user-specific local settings)
+.claude/settings.local.json
+
+# Playwright MCP (browser session data, traces)
+.playwright-mcp/
+
+# Working/temporary directories
+.tmp/
+
+# Test artifacts at repo root
+/survey-filled.png
