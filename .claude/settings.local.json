@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.houjin-bangou.nta.go.jp)",
+      "Bash(git -C /Users/ty/work/ty-company status)",
+      "Bash(python3 -m http.server 8765 --bind 127.0.0.1)",
+      "Bash(open http://127.0.0.1:8765/)",
+      "Bash(npm -v)",
+      "Bash(wrangler login *)",
+      "Bash(wrangler pages *)",
+      "Bash(curl -sI https://ty-company.pages.dev/)",
+      "Bash(curl -sI https://61ab622f.ty-company.pages.dev/)",
+      "Bash(curl -s https://ty-company.pages.dev/)",
+      "Bash(open https://ty-company.pages.dev/)",
+      "Bash(git -C /Users/ty/work/ty-company add .gitignore homepage/ .claude/)",
+      "Bash(git -C /Users/ty/work/ty-company commit -m ' *)"
+    ]
+  }
+}
